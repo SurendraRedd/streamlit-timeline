@@ -51,7 +51,4 @@ def timeline(data, height=800):
         </script>'''
 
 
-    # return rendered html
-    static_component = components.html(htmlcode, height=height,)
-
-    return static_component
+    return components.html(htmlcode, height=height,)
